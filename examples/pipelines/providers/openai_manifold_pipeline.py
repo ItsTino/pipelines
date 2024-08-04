@@ -8,7 +8,7 @@ import requests
 
 class Pipeline:
     class Valves(BaseModel):
-        OPENAI_API_BASE_URL: str = "https://api.openai.com/v1"
+        OPENAI_API_BASE_URL: str = "https://openrouter.ai/api/v1"
         OPENAI_API_KEY: str = ""
         pass
 
